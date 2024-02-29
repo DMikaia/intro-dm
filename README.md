@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution] (https://github.com/DMikaia/intro-dm)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/DMikaia/intro-dm)
+- Live Site URL: [Demo](https://intro-dm.netlify.app)
 
 ## My process
 
@@ -49,33 +49,10 @@ Use this section to recap over some of your major learnings while working throug
 To see how you can add code snippets, see below:
 
 ```js
-let toggleAnimationMobile = (index) => {
-  const featM = anime.timeline({
-    easing: "easeOutExpo",
-  });
-
-  const compM = anime.timeline({
-    easing: "easeOutExpo",
-  });
-
-  if (index === 0) {
-    featM.add({
-      targets: "#feat-arrow-mobile .arrow-mobile",
-      d: [{ value: toggleDrop ? upPathM : downPathM }],
-    });
-    document.getElementById("feat-drop-mobile").style.display = toggleDrop
-      ? "flex"
-      : "none";
-  } else {
-    compM.add({
-      targets: "#comp-arrow-mobile .arrow-mobile",
-      d: [{ value: toggleDrop ? upPathM : downPathM }],
-    });
-    document.getElementById("comp-drop-mobile").style.display = toggleDrop
-      ? "flex"
-      : "none";
-  }
-};
+animation.add({
+  targets: "#feat-arrow-mobile .arrow-mobile",
+  d: [{ value: toggleDrop ? upPathM : downPathM }],
+});
 ```
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
