@@ -50,7 +50,7 @@ animation.add({
 
 ### Useful resources
 
-- [Anime.js](https://animejs.com) - This helped me to do a little svg changing animation
+- [Anime.js](https://animejs.com) - This helped me to do a little svg morphing and animation
 
 ## Author
 
