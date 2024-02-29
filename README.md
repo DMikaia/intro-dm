@@ -6,15 +6,12 @@ This is a solution to the [Intro section with dropdown navigation challenge on F
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -39,8 +36,6 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
